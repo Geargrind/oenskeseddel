@@ -14,6 +14,9 @@ public class BrugerRepo {
 
     @Autowired
     JdbcTemplate template;
+//Java Database Connectivity (JDBC)
+// om bruger JDBC API'et til at kommunikere med databasen. Med JdbcTemplate kan du udføre SQL-forespørgsler,
+// opdatere eller slette data, og hente resultater i form af lister eller objekter.
 
     // metode til at oprette bruger
     public void addBruger(Bruger A) {

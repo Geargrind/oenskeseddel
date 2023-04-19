@@ -9,6 +9,9 @@ import java.util.List;
 
 @Service
 public class BrugerService {
+// Dette gør det nemmere at håndtere afhængigheder og oprette instanser
+// af objekter, der er afhængige af andre objekter.
+
 
     @Autowired
     BrugerRepo brugerRepo;
